@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<head>
+<title>Registration Form</title>
+</head>
+<style>
+*{
+margin:0;
+padding:0;
+}
+body{
+}
+div.main{
+width: 400px;
+margin: 100px auto 0px auto;
+}
+h2{
+text-align:center;
+padding: 20px;
+font-family: sans-serif;
+}
+div.register{
+background-color:rgba(0,0,0,0.5);
+width: 100%;
+font-size: 18px;
+border-radius: 10px;
+border:1px solid rgba(255,255,255,0.3);
+box-shadow:2px 2px 15px
+rgba(0,0,0,0.3);
+color:#fff;
+}
+form#register{
+margin: 40px;
+}
+label{
+font-family: sans-serif;
+font-size: 18px;
+font-style: italic;
+}
+input#name{
+width: 300px;
+border:1px solid #ddd;
+border-radius: 3px;
+outline: 0;
+padding:7px;
+background-color: #fff;
+box-shadow:inset 1 px 1px 5px 
+rgba(0,0,0,0.3);
+}
+input#submit{
+width: 200px;
+padding: 9px
+font-size: 16px;
+font-family: sans-serif;
+font-weight: 600;
+border-radius: 3px;
+background-color: rgba(250,100,0,0.8);
+color: #fff;
+cursor: pointer;
+border: 1px solid
+rgba(255,255,255,0.3);
+box-shadow:1px 1px 5px
+rgba(0,0,0,0.3);
+margin-bottom: 20px
+}
+label,span,h2{
+text-shadow: 1px 1px 5px 
+rgba(0,0,0,0.3);
+}
+</style>
+<body background= "s.jpg">
+<div class="main">
+<div class="register">
+<h2>Register Here</h2>
+<form i="register"action="ambulance.php" method="post">
+<label>Patient's First Name :* </label>
+<br>
+<input type="text" name="fname"
+id="name" placeholder="Enter First name" required>
+<br><br>
+<label>Patient's Last name : </label>
+<br>
+<input type="text" name="lname"
+id="name" placeholder="Enter Last name" required>
+<br><br>
+<label> Patient's Age : </label>
+<br>
+<input type="number" name="age"
+id="name" placeholder="Enter age" required>
+<br><br>
+<label>Email : </label>
+<br>
+<input type="email" name="email"
+id="name" placeholder="Enter valid email" >  
+<br><br>
+<label>Mobile_number :* </label>
+<br>
+<input type="number" name="mob_no"
+id="name" placeholder="Enter valid mobile number" required>  
+<br><br>
+<label>Gender :* </label>
+<br>
+&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" required
+id="male">
+&nbsp;
+<span id="male">Male</span>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender"
+id="female">
+&nbsp;
+<span id="female">Female</span>
+<br><br>
+<label>Address :* </label>
+<br>
+<input type="text" name="address"
+id="name" placeholder="Enter valid Address">
+<br><br>
+<label> Pincode* : </label>
+<br>
+<input type="number" name="pincode"
+id="name" placeholder="enter pincode" required>
+<br><br>
+<label>Landmark :* </label>
+<br>
+<input type="text" name="landmark"
+id="name" placeholder="Enter Landmark" required>
+<br><br>
+<center><a href="link5.html"><button class="button">Submit</button></a></center>
+</form>
+</div>
+</div>
+</body>
+</html>
